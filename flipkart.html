@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flipkart Homepage Clone</title>
+
+<style>
+/* ===== CSS CODE INSIDE HTML ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header{
+    background:#2874f0;
+    padding:10px 20px;
+}
+
+.nav{
+    display:flex;
+    align-items:center;
+    color:white;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    margin-right:20px;
+}
+
+.search{
+    width:40%;
+    padding:8px;
+    border:none;
+    border-radius:2px;
+}
+
+.login{
+    margin-left:15px;
+    padding:6px 15px;
+    background:white;
+    color:#2874f0;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.links{
+    margin-left:auto;
+}
+
+.links a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+/* Category Bar */
+.category{
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
+    background:white;
+    border-bottom:1px solid #ddd;
+}
+
+.category div{
+    font-size:14px;
+    cursor:pointer;
+}
+
+/* Banner */
+.banner{
+    background:#f1f3f6;
+    padding:40px;
+    text-align:center;
+}
+
+.banner h1{
+    color:#2874f0;
+}
+
+/* Products */
+.products{
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+}
+
+.product{
+    border:1px solid #ddd;
+    padding:10px;
+    width:200px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.product img{
+    width:100%;
+}
+
+.product:hover{
+    box-shadow:0 0 10px gray;
+    transform:scale(1.05);
+}
+
+/* Footer */
+footer{
+    background:#172337;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="nav">
+        <div class="logo">Flipkart</div>
+
+        <input class="search" type="text" placeholder="Search for products, brands and more">
+
+        <button class="login">Login</button>
+
+        <div class="links">
+            <a href="#">Become a Seller</a>
+            <a href="#">More</a>
+            <a href="#">Cart 🛒</a>
+        </div>
+    </div>
+</header>
+
+<!-- CATEGORY MENU -->
+<div class="category">
+    <div>Mobiles</div>
+    <div>Fashion</div>
+    <div>Electronics</div>
+    <div>Home</div>
+    <div>Appliances</div>
+    <div>Travel</div>
+    <div>Beauty</div>
+    <div>Top Offers</div>
+</div>
+
+<!-- BANNER -->
+<div class="banner">
+    <h1>Big Billion Days Sale</h1>
+    <p>Up to 70% OFF on Electronics & Fashion</p>
+</div>
+
+<!-- PRODUCTS -->
+<div class="products">
+    <div class="product">
+        <img src="https://via.placeholder.com/200">
+        <h3>Smartphone</h3>
+        <p>₹12,999</p>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/200">
+        <h3>Headphones</h3>
+        <p>₹1,499</p>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/200">
+        <h3>Laptop</h3>
+        <p>₹45,999</p>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/200">
+        <h3>Smart Watch</h3>
+        <p>₹2,999</p>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Flipkart Clone Project</p>
+</footer>
+
+</body>
+</html>
